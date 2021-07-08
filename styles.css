@@ -44,10 +44,15 @@ body {
   background-color: white;
   color: green;
   padding: 0.3em;
+  cursor: default;
 }
 
 .square:hover {
   border: 2px solid red;
+}
+
+.square:active {
+  background-color: lightgoldenrodyellow;
 }
 
 .white {
@@ -56,4 +61,11 @@ body {
 
 .black {
   background-color: black;
+}
+
+.piece {
+  align-items: center;
+  height: 25%;
+  width: 25%;
+  background-color: lightblue;
 }
